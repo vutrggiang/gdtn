@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia đình thống nhất</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            width: 1000px;
+            margin:0px auto;
+        }
+        #menu1{
+            background: pink;
+            height: 40px;
+        }
+        #banner{
+            height: 280px;
+            width: 1000px;
+        }
+        #main #left{
+            width: 700px;
+            background:black;
+            float: left;
+            height: 620px;
+        }
+        #main #right{
+            width: 300px;
+            background:pink;
+            float: left;
+            height: 620px;
+        }
+        #footer{
+            background: pink;
+            width: 1000px;
+            margin-top: 760px;
+            text-align: center;
+            height: 60px;
+            color: black;
+            clear: left;
+            line-height: 60px;
+            list-style: none;
+            text-decoration: underline;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        #menu1 ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        #menu1 li{
+            position: relative;
+        }
+        #menu1 ul li{
+            list-style: none;
+            float: left;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+        #menu1 ul li a{
+            text-decoration: none;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            color: black;
+            padding: 0px 64.7px 0px 64.7px;
+            font-weight: bold;
+        }
+        #menu1 ul li a:hover{
+            color: rgb(255, 94, 0);
+        }
+        #menu1 ul.submenu{
+            position: absolute;
+            background: pink;
+            padding: 0px 0px ;
+            list-style: none;
+            width: 256px;
+            display: none;
+        }
+        #menu1 li:hover ul.submenu{
+            display: block;
+        }
+        #menu1 ul.submenu a{
+            padding: 8px 15px;
+            padding: 0px 20px 0px 20px;
+            margin-left: 40px;
+        }
+        #menu1 ul.submenu li:last-child a{
+            border: none;
+        }
+        #menu1 .submenu>li{
+            width: 100%;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+        #banner img{
+            width: 1000px;
+            height: 400px;
+        }
+        #main #left ul li img{
+            width: 200px;
+            height: 180px;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            margin-left: -20px;
+        }
+        #main #left ul li{
+            list-style: none;
+            clear: left;
+            margin-bottom: 20px;
+            color: pink;
+        }
+        #main #left ul li:hover{
+            color: yellow;
+        }
+        #main{
+            margin-top: 130px;
+        }
+        #main #right ul li img{
+            margin-left: -15px;
+            margin-top: 40px;
+        }
+        #main #right ul li{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu1">
+        <ul>
+            <li><a href="./index.html" title="Về chúng tôi">Về chúng tôi</a></li>
+            <li><a href="./indexx.html" title="Các thành viên">Các thành viên</a></li>
+            <li><a href="3" title="Các chiếc ảnh bí mật">Các chiếc ảnh "bí mật"</a>
+                <ul class="submenu">
+                    <li><a href="">Ảnh tuổi thơ và trường học</a></li>
+                    <li><a href="">Ảnh các dịp đặc biệt</a></li>
+                    <li><a href="">Ảnh cuộc sống thường ngày</a></li>
+                </ul>
+            </li>
+            <li><a href="4" title="Blog">Blog</a></li>
+            <li><a href="5" title="Liên hệ">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div id="banner">
+        <img src="https://i.imgur.com/hzXuQgU.jpg" alt="">
+    </div>
+    <div id="main">
+        <div id="left">
+            <ul>
+            <li><img src="https://i.imgur.com/Q4sTYXF.jpg" alt="">
+                <h3>Giới thiệu</h3>
+                <h4>"Thành lập" từ năm 2012, chúng mình đã là bạn thân được gần một thế kỉ. Với 9 thành viên, đủ từ giới tính cho tới tính cách,... qua nhiều năm tháng, chúng mình ngày càng thân thiết và vui vẻ, yêu thương nhau. Và giờ khi đã trưởng thành, chúng mình đã có một quyết định...</h4>
+            </li>
+            <li><img src="https://i.imgur.com/BzOButi.jpg" alt="">
+                <h3>"Đặc sản" của nhóm</h3>
+                <h4>Vời quãng thời gian gần một thập niên bên nhau, qua vô vàn sự kiện, khoảnh khắc, các kỉ niệm vui buồn, chúng tôi "tự hào" khi sở hữu tới 10 nghìn chiếc ảnh dìm từ sinh nhật, đi chơi, cho đến những hình ảnh đời thường nhất.</h4>
+            </li>
+            <li><img src="https://i.imgur.com/2htDA0F.jpg" alt="" height="250px">
+                <h3>Dấu hiệu nhận biết</h3>
+                <h4>Một nhóm 9 con người với các đặc điểm sau: Cười to, ầm ĩ, ồn ào, hay *beep beep*, selfie và chụp ảnh ở khắp mọi nơi ở bất cứ thứ gì có thể hoặc không thể phản chiếu hình ảnh, đánh tú lơ khơ khắp mọi miền Tổ Quốc,...</h4>
+            </li>
+            </ul>
+        </div>
+        <div id="right">
+            <ul>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.h4Hj0DG8mTWL4HhISRTvfAHaHa&pid=Api&P=0&w=300&h=300" alt="" width="250px" height="250px">
+                    <h3>Kênh truyền thông</h3>
+                    <h4>Instagram: gd.thongnhat</h4>
+                    <h4>Facebook: Gia đình thống nhất</h4>
+                    <h4>Tiktok: gd.thongnhat</h4>
+                    <h4>Group: Gia đình thống nhất: Onlyfans</h4>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <ul>
+            <li>Email: gdthongnhat@gmail.com; Số điện thoại: 0398067465/0868661465</li>
+        </ul>
+    </div>
+</body>
+</html>
